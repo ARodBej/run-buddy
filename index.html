@@ -78,6 +78,11 @@
         <!-- "what we do" section-->
         <section id="what-we-do" class="intro">
             <h2 class="section-title primary border">What We Do</h2>
+            <div class="flex-row">
+                <p>
+                    butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft 
+                </p>
+            </div>
             <p>
                 butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you proabbly haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
             </p>
@@ -86,11 +91,18 @@
         <section id="what-you-do" class="steps">
             <h2 class="section-title secondary-border">What You Do</h2>
 
-            <div>
-                <!-- insert this img element -->
-                <img src="./assets/images/step-1.svg" alt="" />
-                <h3>Step 1:  <span>Fill Out the Form Above.</span></h3>
-                <p>You're already here, so why not?</p>
+            <div class="step">
+                <h3>Step 1.</h3>
+                <div class="step-info">
+                    <div class="step-img">
+                         <img src="./assets/images/step-1.svg" alt="" />
+                    </div>
+                    <div class="step-text">
+                        <h4>Fill Out The Form Above</h4>
+                        <p>You're already here, so why not?</p>
+                    
+                    </div>
+                </div>
             </div>
 
             <div>
@@ -114,13 +126,15 @@
     
 
         <!-- "meet the trainers" section -->
-        <section id="your-trainers" class="trainers">
+        <section id="your-trainers">
             <h2 class="section-title primary-border">Meet the Trainers</h2>
+            <div class="trainers">
             <article class="trainer">
+           
                 <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
-                <div class="trainer-bio text-left">
-                    <h3>Arron Stephens</h3>
-                    <h4>Speed / Strength</h4>
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Arron Stephens</h3>
+                    <h4 class="trainer-role">Speed / Strength</h4>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo possimus quos eveniet tempore, ipsum cumque doloremque eius vel magnam praesentium consectetur! Provident enim ad sequi sapiente libero ea dignissimos aliquam?
                     </p>
@@ -128,28 +142,34 @@
             </article>
             <!-- second trainer bio -->
             <article class="trainer">
-                <div class="trainer-bio text-right">
-                    <h3>Joanna Gill</h3>
-                    <h4>Endurance</h4>
+                <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Joanna Gill</h3>
+                    <h4 class="trainer-bio">Endurance</h4>
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis accusantium assumenda nobis adipisci. Labore, dolorum consectetur repellendus cum atque, iusto, rerum vel aliquam unde ad magni perspiciatis corrupti architecto fugit?
                     </p>
                 </div>
-                <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
             </article>
             <!-- third trainer bio -->
-            <article class="trainer">
+                <article class="trainer"> 
                 <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights " />
-                <div class="trainer-bio text-left">
-                    <h3>Harry "the Headband" Smith</h3>
-                    <h4>Strength</h4>
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Harry "the Headband" Smith</h3>
+                    <h4 class="trainer-role">Strength</h4>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur temporibus cupiditate nihil hic ea eos reprehenderit repellat earum itaque alias. Provident odit dolores aspernatur dolore ratione commodi quasi aperiam. Labore.</p>
                 </div>
             </article>
+        </div>
         </section>
-
+        
         <!-- "reach out" section-->
         <section id="reach-out" class="contact">
+            <div class="flex-row">
+                <h2 class="section-title primary-border">
+                    What We Do
+                </h2>
+            </div>
             <h2 class="section-title secondary-border">Reach Out</h2>
             <div class="contact-info">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.6483302999814!2d-112.11444818448739!3d33.64035924676958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b6ee5e832e7bf%3A0xaa2749d24c471c28!2s2450%20W%20Bell%20Rd%2C%20Phoenix%2C%20AZ%2085023!5e0!3m2!1sen!2sus!4v1635378529876!5m2!1sen!2sus" 
@@ -157,25 +177,43 @@
                 allowfullscreen="" 
                 loading="lazy">
                 </iframe>
+        <div class="contact-info">
            <div>
                 <h3>Run Buddy</h3>
-            
                 <p>
                     Any questions or concerns before signing up?
                     <br />
                     Let us know and we'll be happy to talk to you!
                 </p>
+
                 <address>
                     55 main Street <br/>
                     Some Town, Ca <br/>
                     12345<br />
-                    P: 555.RUN.BUDZ (555.786.2839)<br/>
+                    P: <a href="555.786.2839">555.RUN.BUDZ (555.786.2839)</a><br />
                     E: <a href="mailto:info@info@runbuddy.io">info@runbuddy.io</a>
                 </address>
-            </div>
-            </div>
-        </section>
 
+            </div>
+        
+        <div class="contact-form">
+            <h3>Contact Us</h3>
+            <form>
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" placeholder="Your name" />
+
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" placeholder="Message">
+                </textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <iframe
+        rc="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12182.30520634488!2d-74.0652613!3d40.2407219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1561060983193!5m2!1sen!2sus"
+        frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
         <!-- footer -->
         <footer>
             <h2>❤️ Made with love by Run Buddy</h2>
